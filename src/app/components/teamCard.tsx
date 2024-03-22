@@ -49,7 +49,7 @@ export default function RandomUserPage() {
         const users = await fetchRandomUsers();
         setRandomUsers(users);
         setLoading(false);
-      } catch (error) {
+      } catch (error:any) {
         setError(error.message);
         setLoading(false);
       }
