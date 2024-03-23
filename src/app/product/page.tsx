@@ -37,7 +37,11 @@ export default function Product() {
               <Testimonials />
             </Grid>
             <Grid item xs={12} md={7}>
-              <img src="https://cdn.onekindesign.com/wp-content/uploads/2022/09/Spanish-Revival-Home-Renovation-Medium-Plenty-01-1-Kindesign.jpg" alt="#" style={{ width: '100%', height: 'auto' }} />
+              <img src="./house2.jpeg" alt="#" style={{ width: '100%', height: 'auto' }} />
+              <img
+                src="./interior.jpeg"
+                className={styles.image}
+              />
             </Grid>
           </Grid>
         </div>

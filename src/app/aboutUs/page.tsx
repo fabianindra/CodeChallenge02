@@ -17,7 +17,7 @@ export default function AboutUs() {
           <Grid container spacing={3}>
             <Grid item xs={12} md={6}>
               <img
-                src="https://images.adsttc.com/media/images/5e38/828c/3312/fdd4/5200/0122/slideshow/BICUBIK_9268.jpg?1580761728"
+                src="./house1.jpeg"
                 className={styles.image}
               />
             </Grid>
