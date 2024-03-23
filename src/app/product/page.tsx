@@ -40,7 +40,7 @@ export default function Product() {
               <img src="./house2.jpeg" alt="#" style={{ width: '100%', height: 'auto' }} />
               <img
                 src="./interior.jpeg"
-                className={styles.image}
+                alt="#" style={{ width: '100%', height: 'auto' }}
               />
             </Grid>
           </Grid>

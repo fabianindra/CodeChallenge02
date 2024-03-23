@@ -18,7 +18,7 @@ export default function AboutUs() {
             <Grid item xs={12} md={6}>
               <img
                 src="./house1.jpeg"
-                className={styles.image}
+                alt="#" style={{ width: '100%', height: 'auto' }}
               />
             </Grid>
             <Grid item xs={12} md={6} className={styles.textContainer}>
