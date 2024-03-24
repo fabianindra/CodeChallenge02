@@ -29,10 +29,10 @@ const fetchRandomUsers = async () => {
 
 const RandomUserCard = ({ user }: { user: RandomUser }) => (
   <div className="random-user-card">
-    <img src={user.picture.large} className="user-image" />
-    <div className="user-details">
+    <img src={user.picture.large} className="user-image"/>
+    <div className="user-details" style={{overflow:"scroll", backgroundColor:"lightgrey"}}>
       <p><strong>Name:</strong> {user.name.first} {user.name.last}</p>
-      <p><strong>Email:</strong> {user.email}</p>
+      <p ><strong>Email:</strong> {user.email}</p>
       <p><strong>City:</strong> {user.location.city}</p>
     </div>
   </div>
