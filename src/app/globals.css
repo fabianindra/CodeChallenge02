@@ -38,14 +38,6 @@ h1 {
   width: 50%;
 }
 
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
-}
-
 .navbar {
 margin: 15px;
 color: black;
